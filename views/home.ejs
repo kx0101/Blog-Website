@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+
+
+<h1>Home</h1>
+
+<p><%= homeStartingContent %></p>
+
+    <% composeItems.forEach(function(item) { %>
+        <h1><%= item.newTitle %></h1>
+        <p><%= truncate(item.newBody, 100) %></p>
+        <a href="/posts/<%= item.newTitle %>">Read More</a>
+    <% }); %>
+
+    <% function truncate(str, n){ %>
+        <% return (str.length > n) ? str.substr(0, n-1) + '...' : str; %>
+    <%  }; %> 
+    
+<%- include("partials/footer"); -%>
+
