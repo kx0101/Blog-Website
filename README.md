@@ -1,5 +1,5 @@
 # Blog-Website
 
-<img src="screenshot96.png">
-<img src="screenshot97.png">
-<img src="screenshot98.png">
+<img src="Screenshot-96.png">
+<img src="Screenshot-97.png">
+<img src="Screenshot-98.png">
